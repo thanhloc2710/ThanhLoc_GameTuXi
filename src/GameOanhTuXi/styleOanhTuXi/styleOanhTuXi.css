@@ -1,0 +1,14 @@
+
+@font-face{
+    font-family: 'pony';
+    src: url(./Pony.ttf);
+}
+
+.bgGame{
+    background: url(./bgGame.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-family: 'pony';
+    background-size: cover;
+}

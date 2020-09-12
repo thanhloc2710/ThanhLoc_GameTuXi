@@ -1,0 +1,100 @@
+.background{
+    background: url(./background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.backgroundblack{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.use{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.change-plastic{
+    position: absolute;
+    height: 240px;
+    width: 250px;
+    top: 10%;
+    left: 32%;
+}
+
+.change-content h5{
+    margin: 5px 0px; 
+    color: blueviolet;
+}
+
+.change-content p{
+    margin: 0;
+    color: white; 
+}
+
+.modelLeft{
+    width: 250px;
+    height: 290px;
+    position: absolute;
+}
+
+.changeKinh{
+    width: 145px;
+    height: 70px;
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    opacity: 0.4;
+}
+
+.modelRight{
+    width: 250px;
+    height: 290px;
+    position: absolute;
+    top: 10%;
+    right: 32%;
+    cursor: pointer;
+}
+
+.plastic{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    background-color: white;
+}
+
+.plastic-img{
+    border: 1px solid brown;
+    margin: 10px 0 10px 14px;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+}
+
+.change-content{
+    position: relative;
+    color: black;
+    word-break: break-all;
+    bottom: -75%;
+    left: 0;
+    background-color: #827f0e85;
+    width: 100%;
+    height: 44.4%;
+}
